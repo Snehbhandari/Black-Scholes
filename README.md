@@ -21,7 +21,7 @@ This has a standalone, offline implementation of the base Black–Scholes model 
   - `black_scholes_price(S, K, T, r, sigma, option_type='call')` 
   - `black_scholes_greeks(S, K, T, r, sigma, option_type='call')` 
   - `plot_price_vs_strike(...)`, `plot_greeks_vs_strike(...)`, `plot_greeks_vs_maturity(...)` 
-  Where
+-Where
   - **S**: current spot price of the underlying asset
   - **K**: option strike price 
   - **T**: time to maturity in years 
@@ -40,7 +40,8 @@ This has a standalone, offline implementation of the base Black–Scholes model 
   - Fetches option chains from Yahoo Finance
   - Solves implied vols per strike/maturity (Brent method)
   - Builds a 2D IV surface interpolator and exposes lookup and pricing 
-  - Optional plots: smile, term structure, 3D surface 
+  - Optional plots: smile, term structure, 3D surface ush
+  le
 
 Run example:
 ```bash
